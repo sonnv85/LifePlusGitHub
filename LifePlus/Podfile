@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LifePlus' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LifePlus
+
+pod 'Alamofire', '~>4.0'
+pod 'SDWebImage'
+pod 'TPKeyboardAvoiding'
+pod 'ReachabilitySwift'
+pod 'SVProgressHUD'
+pod 'ObjectMapper'
+pod 'SwiftyJSON'
+pod 'MIAlertController', '~>1.3'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
+pod 'MJRefresh'
+pod 'QRCodeReader.swift', '~> 7.3.0’
+pod 'PureLayout'
+pod 'SnapKit', '~> 3.0'
+pod 'GoogleMaps'
+end

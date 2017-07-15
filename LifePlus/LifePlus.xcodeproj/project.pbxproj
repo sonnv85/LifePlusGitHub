@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34838CD9D49BEDD1593F8256 /* Pods_LifePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1873FE841EA73B35C9B791E3 /* Pods_LifePlus.framework */; };
+		570DEF501F135AFC00A69DD8 /* GiftInforVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570DEF4F1F135AFC00A69DD8 /* GiftInforVC.swift */; };
+		570DEF521F135FB000A69DD8 /* GiftInforTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570DEF511F135FB000A69DD8 /* GiftInforTVC.swift */; };
+		570EEBBE1EE4FCBD004DA734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570EEBBD1EE4FCBD004DA734 /* AppDelegate.swift */; };
+		570EEBC01EE4FCBD004DA734 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570EEBBF1EE4FCBD004DA734 /* HomeVC.swift */; };
+		570EEBC31EE4FCBD004DA734 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570EEBC11EE4FCBD004DA734 /* Home.storyboard */; };
+		570EEBC51EE4FCBD004DA734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570EEBC41EE4FCBD004DA734 /* Assets.xcassets */; };
+		570EEBC81EE4FCBD004DA734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570EEBC61EE4FCBD004DA734 /* LaunchScreen.storyboard */; };
+		5711EE391EEA3CE600FC4A5D /* BannerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711EE371EEA3CE600FC4A5D /* BannerCVC.swift */; };
+		5711EE3A1EEA3CE600FC4A5D /* BannerCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5711EE381EEA3CE600FC4A5D /* BannerCVC.xib */; };
+		5717DC8F1F0C99490045FF2B /* Coupon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5717DC8E1F0C99490045FF2B /* Coupon.storyboard */; };
+		5717DC911F0CA3B20045FF2B /* QRReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717DC901F0CA3B20045FF2B /* QRReaderVC.swift */; };
+		57250B6B1F00EC580075B343 /* Merchants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57250B6A1F00EC580075B343 /* Merchants.storyboard */; };
+		57250B6D1F00EE010075B343 /* MerchantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57250B6C1F00EE010075B343 /* MerchantsVC.swift */; };
+		57250B701F00EEB80075B343 /* SearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57250B6E1F00EEB80075B343 /* SearchTVC.swift */; };
+		57250B711F00EEB80075B343 /* SearchTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57250B6F1F00EEB80075B343 /* SearchTVC.xib */; };
+		57250B741F00F57C0075B343 /* MerchantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57250B721F00F57C0075B343 /* MerchantTVC.swift */; };
+		57250B751F00F57C0075B343 /* MerchantTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57250B731F00F57C0075B343 /* MerchantTVC.xib */; };
+		574DFE561F0DEF70003EDD83 /* Gift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574DFE551F0DEF70003EDD83 /* Gift.storyboard */; };
+		574DFE581F0DF06E003EDD83 /* ExchangePointVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DFE571F0DF06E003EDD83 /* ExchangePointVC.swift */; };
+		574DFE5B1F0DF098003EDD83 /* ExchangePointTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DFE591F0DF098003EDD83 /* ExchangePointTVC.swift */; };
+		574DFE5C1F0DF098003EDD83 /* ExchangePointTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574DFE5A1F0DF098003EDD83 /* ExchangePointTVC.xib */; };
+		575355401EF7875300756CF0 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753553E1EF7875300756CF0 /* BaseCell.swift */; };
+		575355411EF7875300756CF0 /* BaseTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753553F1EF7875300756CF0 /* BaseTableVC.swift */; };
+		576D30411EE8FB3A00F99D36 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D303F1EE8FB3A00F99D36 /* HomeTVC.swift */; };
+		576D30421EE8FB3A00F99D36 /* HomeTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576D30401EE8FB3A00F99D36 /* HomeTVC.xib */; };
+		57705E561EE50AB000A7F144 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57705E541EE50AB000A7F144 /* APIManager.swift */; };
+		57705E571EE50AB000A7F144 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57705E551EE50AB000A7F144 /* Router.swift */; };
+		57705E601EE50B4000A7F144 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57705E5F1EE50B4000A7F144 /* BaseVC.swift */; };
+		57705E631EE50BF300A7F144 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57705E621EE50BF300A7F144 /* Coupon.swift */; };
+		57722D861F14D07300FAE9DD /* GiftDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57722D851F14D07300FAE9DD /* GiftDetailVC.swift */; };
+		577B43421F1607AB007AE2D7 /* LocationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B43411F1607AB007AE2D7 /* LocationsVC.swift */; };
+		5783DE571EE546B2003D9211 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783DE561EE546B2003D9211 /* User.swift */; };
+		5783DE591EE554DA003D9211 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783DE581EE554DA003D9211 /* LoginVC.swift */; };
+		578DE2421EFBA9B60047E1AD /* GetCouponVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DE2411EFBA9B60047E1AD /* GetCouponVC.swift */; };
+		5792AAFC1F137EB20007E5AE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792AAFB1F137EB20007E5AE /* Card.swift */; };
+		579E9FC61EE651D200F061C1 /* Campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FC51EE651D200F061C1 /* Campaign.swift */; };
+		579E9FC81EE6544F00F061C1 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FC71EE6544F00F061C1 /* Branch.swift */; };
+		579E9FCA1EE654A200F061C1 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FC91EE654A200F061C1 /* Merchant.swift */; };
+		579E9FCC1EE654D700F061C1 /* MemberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FCB1EE654D700F061C1 /* MemberType.swift */; };
+		579E9FD11EE65C8900F061C1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FCD1EE65C8900F061C1 /* APIError.swift */; };
+		579E9FD61EE689DB00F061C1 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FD51EE689DB00F061C1 /* ForgotPasswordVC.swift */; };
+		579E9FD81EE6971B00F061C1 /* SelectAMerchantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FD71EE6971B00F061C1 /* SelectAMerchantVC.swift */; };
+		579E9FDA1EE699AA00F061C1 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579E9FD91EE699AA00F061C1 /* Login.storyboard */; };
+		579E9FDC1EE69A7300F061C1 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579E9FDB1EE69A7300F061C1 /* Signup.storyboard */; };
+		579E9FDF1EE6A20600F061C1 /* SelectAMerchantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E9FDD1EE6A20600F061C1 /* SelectAMerchantTVC.swift */; };
+		579E9FE01EE6A20600F061C1 /* SelectAMerchantTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579E9FDE1EE6A20600F061C1 /* SelectAMerchantTVC.xib */; };
+		57AF3A881EE79CD3001B7B83 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3A871EE79CD3001B7B83 /* SignUpVC.swift */; };
+		57AF3A8A1EE7E517001B7B83 /* ConfirmActiveAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3A891EE7E517001B7B83 /* ConfirmActiveAccountVC.swift */; };
+		57C1B9C01EEE7FD300516DC4 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B9BF1EEE7FD300516DC4 /* SearchVC.swift */; };
+		57D82BED1F0F781D0057CA90 /* ConfigurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D82BEC1F0F781D0057CA90 /* ConfigurationVC.swift */; };
+		57DC83581EE561CD005A41C1 /* Ultils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC83571EE561CD005A41C1 /* Ultils.swift */; };
+		57E7949C1F03AA0700BA5F53 /* MerchantDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E7949B1F03AA0700BA5F53 /* MerchantDetailVC.swift */; };
+		57E7949F1F03AA9500BA5F53 /* ProviderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E7949D1F03AA9500BA5F53 /* ProviderTVC.swift */; };
+		57E794A31F03ABF100BA5F53 /* CouponSponsoringTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E794A11F03ABF100BA5F53 /* CouponSponsoringTVC.swift */; };
+		57EE73BB1EF7D0CA001CA58C /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE73B91EF7D0CA001CA58C /* SectionHeaderView.swift */; };
+		57EE73BC1EF7D0CA001CA58C /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EE73BA1EF7D0CA001CA58C /* SectionHeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1873FE841EA73B35C9B791E3 /* Pods_LifePlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifePlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570DEF4F1F135AFC00A69DD8 /* GiftInforVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftInforVC.swift; sourceTree = "<group>"; };
+		570DEF511F135FB000A69DD8 /* GiftInforTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftInforTVC.swift; sourceTree = "<group>"; };
+		570EEBBA1EE4FCBD004DA734 /* LifePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		570EEBBD1EE4FCBD004DA734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		570EEBBF1EE4FCBD004DA734 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		570EEBC21EE4FCBD004DA734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		570EEBC41EE4FCBD004DA734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		570EEBC71EE4FCBD004DA734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		570EEBC91EE4FCBD004DA734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5711EE371EEA3CE600FC4A5D /* BannerCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCVC.swift; sourceTree = "<group>"; };
+		5711EE381EEA3CE600FC4A5D /* BannerCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerCVC.xib; sourceTree = "<group>"; };
+		5717DC8E1F0C99490045FF2B /* Coupon.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Coupon.storyboard; sourceTree = "<group>"; };
+		5717DC901F0CA3B20045FF2B /* QRReaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderVC.swift; sourceTree = "<group>"; };
+		57250B6A1F00EC580075B343 /* Merchants.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Merchants.storyboard; sourceTree = "<group>"; };
+		57250B6C1F00EE010075B343 /* MerchantsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantsVC.swift; sourceTree = "<group>"; };
+		57250B6E1F00EEB80075B343 /* SearchTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTVC.swift; sourceTree = "<group>"; };
+		57250B6F1F00EEB80075B343 /* SearchTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTVC.xib; sourceTree = "<group>"; };
+		57250B721F00F57C0075B343 /* MerchantTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantTVC.swift; sourceTree = "<group>"; };
+		57250B731F00F57C0075B343 /* MerchantTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantTVC.xib; sourceTree = "<group>"; };
+		574DFE551F0DEF70003EDD83 /* Gift.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gift.storyboard; sourceTree = "<group>"; };
+		574DFE571F0DF06E003EDD83 /* ExchangePointVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangePointVC.swift; sourceTree = "<group>"; };
+		574DFE591F0DF098003EDD83 /* ExchangePointTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangePointTVC.swift; sourceTree = "<group>"; };
+		574DFE5A1F0DF098003EDD83 /* ExchangePointTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExchangePointTVC.xib; sourceTree = "<group>"; };
+		5753553E1EF7875300756CF0 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		5753553F1EF7875300756CF0 /* BaseTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableVC.swift; sourceTree = "<group>"; };
+		576D303F1EE8FB3A00F99D36 /* HomeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		576D30401EE8FB3A00F99D36 /* HomeTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTVC.xib; sourceTree = "<group>"; };
+		57705E541EE50AB000A7F144 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		57705E551EE50AB000A7F144 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		57705E5F1EE50B4000A7F144 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		57705E621EE50BF300A7F144 /* Coupon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		57722D851F14D07300FAE9DD /* GiftDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftDetailVC.swift; sourceTree = "<group>"; };
+		577B43411F1607AB007AE2D7 /* LocationsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsVC.swift; sourceTree = "<group>"; };
+		5783DE561EE546B2003D9211 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5783DE581EE554DA003D9211 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		578DE2411EFBA9B60047E1AD /* GetCouponVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCouponVC.swift; sourceTree = "<group>"; };
+		5792AAFB1F137EB20007E5AE /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		579E9FC51EE651D200F061C1 /* Campaign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Campaign.swift; sourceTree = "<group>"; };
+		579E9FC71EE6544F00F061C1 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		579E9FC91EE654A200F061C1 /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
+		579E9FCB1EE654D700F061C1 /* MemberType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberType.swift; sourceTree = "<group>"; };
+		579E9FCD1EE65C8900F061C1 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		579E9FD51EE689DB00F061C1 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		579E9FD71EE6971B00F061C1 /* SelectAMerchantVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectAMerchantVC.swift; sourceTree = "<group>"; };
+		579E9FD91EE699AA00F061C1 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		579E9FDB1EE69A7300F061C1 /* Signup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		579E9FDD1EE6A20600F061C1 /* SelectAMerchantTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectAMerchantTVC.swift; sourceTree = "<group>"; };
+		579E9FDE1EE6A20600F061C1 /* SelectAMerchantTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectAMerchantTVC.xib; sourceTree = "<group>"; };
+		57AF3A871EE79CD3001B7B83 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		57AF3A891EE7E517001B7B83 /* ConfirmActiveAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmActiveAccountVC.swift; sourceTree = "<group>"; };
+		57C1B9BF1EEE7FD300516DC4 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		57D82BEC1F0F781D0057CA90 /* ConfigurationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationVC.swift; sourceTree = "<group>"; };
+		57DC83571EE561CD005A41C1 /* Ultils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ultils.swift; sourceTree = "<group>"; };
+		57E7949B1F03AA0700BA5F53 /* MerchantDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantDetailVC.swift; sourceTree = "<group>"; };
+		57E7949D1F03AA9500BA5F53 /* ProviderTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderTVC.swift; sourceTree = "<group>"; };
+		57E794A11F03ABF100BA5F53 /* CouponSponsoringTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponSponsoringTVC.swift; sourceTree = "<group>"; };
+		57EE73B91EF7D0CA001CA58C /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		57EE73BA1EF7D0CA001CA58C /* SectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		986CBD790B5568366BB8CC30 /* Pods-LifePlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifePlus/Pods-LifePlus.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F55279A125B34AAFDC55AB /* Pods-LifePlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifePlus/Pods-LifePlus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570EEBB71EE4FCBC004DA734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34838CD9D49BEDD1593F8256 /* Pods_LifePlus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CBBDCEFCF0C56BE9AA8C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986CBD790B5568366BB8CC30 /* Pods-LifePlus.debug.xcconfig */,
+				D5F55279A125B34AAFDC55AB /* Pods-LifePlus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		570EEBB11EE4FCBC004DA734 = {
+			isa = PBXGroup;
+			children = (
+				570EEBBC1EE4FCBD004DA734 /* LifePlus */,
+				570EEBBB1EE4FCBD004DA734 /* Products */,
+				01CBBDCEFCF0C56BE9AA8C61 /* Pods */,
+				BEAA4D6164C0AD502737D676 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		570EEBBB1EE4FCBD004DA734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570EEBBA1EE4FCBD004DA734 /* LifePlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570EEBBC1EE4FCBD004DA734 /* LifePlus */ = {
+			isa = PBXGroup;
+			children = (
+				57DC83561EE561C0005A41C1 /* Support */,
+				57705E5A1EE50AC800A7F144 /* App */,
+				57705E581EE50AB600A7F144 /* API */,
+				57705E591EE50ABE00A7F144 /* Models */,
+				57705E611EE50B4300A7F144 /* Base */,
+				57705E5B1EE50ADD00A7F144 /* Controller */,
+			);
+			path = LifePlus;
+			sourceTree = "<group>";
+		};
+		5717DC8D1F0C992A0045FF2B /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				5717DC8E1F0C99490045FF2B /* Coupon.storyboard */,
+				57722D911F14D4DD00FAE9DD /* GetCoupon */,
+				57722D921F14D4F000FAE9DD /* QRReader */,
+				57722D931F14D52F00FAE9DD /* Configuration */,
+			);
+			name = Coupon;
+			sourceTree = "<group>";
+		};
+		572009B01EEEC7360044DC2F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				57C1B9BF1EEE7FD300516DC4 /* SearchVC.swift */,
+				57250B6E1F00EEB80075B343 /* SearchTVC.swift */,
+				57250B6F1F00EEB80075B343 /* SearchTVC.xib */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		57250B691F00EC370075B343 /* Merchants */ = {
+			isa = PBXGroup;
+			children = (
+				57250B6A1F00EC580075B343 /* Merchants.storyboard */,
+				57722D901F14D4AE00FAE9DD /* Merchant */,
+				57E794A51F03ABFD00BA5F53 /* Merchant Detail */,
+			);
+			name = Merchants;
+			sourceTree = "<group>";
+		};
+		574DFE541F0DEF2E003EDD83 /* Gift */ = {
+			isa = PBXGroup;
+			children = (
+				574DFE551F0DEF70003EDD83 /* Gift.storyboard */,
+				57722D871F14D2BC00FAE9DD /* ExchantePoint */,
+				57722D881F14D2FE00FAE9DD /* GiftInformations */,
+				57722D891F14D31800FAE9DD /* GiftDetail */,
+				577B433F1F160760007AE2D7 /* Locations */,
+			);
+			name = Gift;
+			sourceTree = "<group>";
+		};
+		5761458E1EFA1EDB003C4947 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				5711EE371EEA3CE600FC4A5D /* BannerCVC.swift */,
+				5711EE381EEA3CE600FC4A5D /* BannerCVC.xib */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		57705E581EE50AB600A7F144 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				579E9FCD1EE65C8900F061C1 /* APIError.swift */,
+				57705E541EE50AB000A7F144 /* APIManager.swift */,
+				57705E551EE50AB000A7F144 /* Router.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		57705E591EE50ABE00A7F144 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5783DE561EE546B2003D9211 /* User.swift */,
+				5792AAFB1F137EB20007E5AE /* Card.swift */,
+				579E9FC51EE651D200F061C1 /* Campaign.swift */,
+				579E9FC71EE6544F00F061C1 /* Branch.swift */,
+				57705E621EE50BF300A7F144 /* Coupon.swift */,
+				579E9FC91EE654A200F061C1 /* Merchant.swift */,
+				579E9FCB1EE654D700F061C1 /* MemberType.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		57705E5A1EE50AC800A7F144 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				570EEBC61EE4FCBD004DA734 /* LaunchScreen.storyboard */,
+				570EEBBD1EE4FCBD004DA734 /* AppDelegate.swift */,
+				570EEBC41EE4FCBD004DA734 /* Assets.xcassets */,
+				570EEBC91EE4FCBD004DA734 /* Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		57705E5B1EE50ADD00A7F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57705E5D1EE50AFD00A7F144 /* Signup */,
+				57705E5C1EE50AF700A7F144 /* Login */,
+				57705E5E1EE50B0300A7F144 /* Home */,
+				57250B691F00EC370075B343 /* Merchants */,
+				5717DC8D1F0C992A0045FF2B /* Coupon */,
+				574DFE541F0DEF2E003EDD83 /* Gift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		57705E5C1EE50AF700A7F144 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				579E9FD91EE699AA00F061C1 /* Login.storyboard */,
+				57722D8D1F14D40900FAE9DD /* Login */,
+				57722D8E1F14D41200FAE9DD /* ForgotPassword */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		57705E5D1EE50AFD00A7F144 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				579E9FDB1EE69A7300F061C1 /* Signup.storyboard */,
+				57722D8A1F14D3B500FAE9DD /* SelectAMerchant */,
+				57722D8B1F14D3D000FAE9DD /* SignUp */,
+				57722D8C1F14D3E500FAE9DD /* ConfirmActiveAccount */,
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+		57705E5E1EE50B0300A7F144 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				570EEBC11EE4FCBD004DA734 /* Home.storyboard */,
+				57722D8F1F14D42D00FAE9DD /* Home */,
+				572009B01EEEC7360044DC2F /* Search */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		57705E611EE50B4300A7F144 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5753553E1EF7875300756CF0 /* BaseCell.swift */,
+				5753553F1EF7875300756CF0 /* BaseTableVC.swift */,
+				57705E5F1EE50B4000A7F144 /* BaseVC.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		57722D871F14D2BC00FAE9DD /* ExchantePoint */ = {
+			isa = PBXGroup;
+			children = (
+				574DFE571F0DF06E003EDD83 /* ExchangePointVC.swift */,
+				574DFE591F0DF098003EDD83 /* ExchangePointTVC.swift */,
+				574DFE5A1F0DF098003EDD83 /* ExchangePointTVC.xib */,
+			);
+			name = ExchantePoint;
+			sourceTree = "<group>";
+		};
+		57722D881F14D2FE00FAE9DD /* GiftInformations */ = {
+			isa = PBXGroup;
+			children = (
+				570DEF4F1F135AFC00A69DD8 /* GiftInforVC.swift */,
+				570DEF511F135FB000A69DD8 /* GiftInforTVC.swift */,
+			);
+			name = GiftInformations;
+			sourceTree = "<group>";
+		};
+		57722D891F14D31800FAE9DD /* GiftDetail */ = {
+			isa = PBXGroup;
+			children = (
+				57722D851F14D07300FAE9DD /* GiftDetailVC.swift */,
+			);
+			name = GiftDetail;
+			sourceTree = "<group>";
+		};
+		57722D8A1F14D3B500FAE9DD /* SelectAMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				579E9FD71EE6971B00F061C1 /* SelectAMerchantVC.swift */,
+				579E9FDD1EE6A20600F061C1 /* SelectAMerchantTVC.swift */,
+				579E9FDE1EE6A20600F061C1 /* SelectAMerchantTVC.xib */,
+			);
+			name = SelectAMerchant;
+			sourceTree = "<group>";
+		};
+		57722D8B1F14D3D000FAE9DD /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				57AF3A871EE79CD3001B7B83 /* SignUpVC.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		57722D8C1F14D3E500FAE9DD /* ConfirmActiveAccount */ = {
+			isa = PBXGroup;
+			children = (
+				57AF3A891EE7E517001B7B83 /* ConfirmActiveAccountVC.swift */,
+			);
+			name = ConfirmActiveAccount;
+			sourceTree = "<group>";
+		};
+		57722D8D1F14D40900FAE9DD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5783DE581EE554DA003D9211 /* LoginVC.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		57722D8E1F14D41200FAE9DD /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				579E9FD51EE689DB00F061C1 /* ForgotPasswordVC.swift */,
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		57722D8F1F14D42D00FAE9DD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5761458E1EFA1EDB003C4947 /* Banner */,
+				57EE73B41EF7C9D0001CA58C /* SegmentedHeader */,
+				570EEBBF1EE4FCBD004DA734 /* HomeVC.swift */,
+				576D303F1EE8FB3A00F99D36 /* HomeTVC.swift */,
+				576D30401EE8FB3A00F99D36 /* HomeTVC.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		57722D901F14D4AE00FAE9DD /* Merchant */ = {
+			isa = PBXGroup;
+			children = (
+				57250B6C1F00EE010075B343 /* MerchantsVC.swift */,
+				57250B721F00F57C0075B343 /* MerchantTVC.swift */,
+				57250B731F00F57C0075B343 /* MerchantTVC.xib */,
+			);
+			name = Merchant;
+			sourceTree = "<group>";
+		};
+		57722D911F14D4DD00FAE9DD /* GetCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				578DE2411EFBA9B60047E1AD /* GetCouponVC.swift */,
+			);
+			name = GetCoupon;
+			sourceTree = "<group>";
+		};
+		57722D921F14D4F000FAE9DD /* QRReader */ = {
+			isa = PBXGroup;
+			children = (
+				5717DC901F0CA3B20045FF2B /* QRReaderVC.swift */,
+			);
+			name = QRReader;
+			sourceTree = "<group>";
+		};
+		57722D931F14D52F00FAE9DD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				57D82BEC1F0F781D0057CA90 /* ConfigurationVC.swift */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		577B433F1F160760007AE2D7 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				577B43411F1607AB007AE2D7 /* LocationsVC.swift */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		57DC83561EE561C0005A41C1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				57DC83571EE561CD005A41C1 /* Ultils.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		57E794A51F03ABFD00BA5F53 /* Merchant Detail */ = {
+			isa = PBXGroup;
+			children = (
+				57E7949B1F03AA0700BA5F53 /* MerchantDetailVC.swift */,
+				57E7949D1F03AA9500BA5F53 /* ProviderTVC.swift */,
+				57E794A11F03ABF100BA5F53 /* CouponSponsoringTVC.swift */,
+			);
+			name = "Merchant Detail";
+			sourceTree = "<group>";
+		};
+		57EE73B41EF7C9D0001CA58C /* SegmentedHeader */ = {
+			isa = PBXGroup;
+			children = (
+				57EE73B91EF7D0CA001CA58C /* SectionHeaderView.swift */,
+				57EE73BA1EF7D0CA001CA58C /* SectionHeaderView.xib */,
+			);
+			name = SegmentedHeader;
+			sourceTree = "<group>";
+		};
+		BEAA4D6164C0AD502737D676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1873FE841EA73B35C9B791E3 /* Pods_LifePlus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570EEBB91EE4FCBC004DA734 /* LifePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570EEBCC1EE4FCBD004DA734 /* Build configuration list for PBXNativeTarget "LifePlus" */;
+			buildPhases = (
+				46D1B57C68E15FB399CD12D9 /* [CP] Check Pods Manifest.lock */,
+				570EEBB61EE4FCBC004DA734 /* Sources */,
+				570EEBB71EE4FCBC004DA734 /* Frameworks */,
+				570EEBB81EE4FCBC004DA734 /* Resources */,
+				229C4B718FA2BF5FA6CB0ED4 /* [CP] Embed Pods Frameworks */,
+				148004CEB2643CCCA6AB42B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifePlus;
+			productName = LifePlus;
+			productReference = 570EEBBA1EE4FCBD004DA734 /* LifePlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570EEBB21EE4FCBC004DA734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Javu;
+				TargetAttributes = {
+					570EEBB91EE4FCBC004DA734 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N235UM7YFU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 570EEBB51EE4FCBC004DA734 /* Build configuration list for PBXProject "LifePlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 570EEBB11EE4FCBC004DA734;
+			productRefGroup = 570EEBBB1EE4FCBD004DA734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570EEBB91EE4FCBC004DA734 /* LifePlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570EEBB81EE4FCBC004DA734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711EE3A1EEA3CE600FC4A5D /* BannerCVC.xib in Resources */,
+				579E9FDA1EE699AA00F061C1 /* Login.storyboard in Resources */,
+				576D30421EE8FB3A00F99D36 /* HomeTVC.xib in Resources */,
+				574DFE5C1F0DF098003EDD83 /* ExchangePointTVC.xib in Resources */,
+				57250B751F00F57C0075B343 /* MerchantTVC.xib in Resources */,
+				574DFE561F0DEF70003EDD83 /* Gift.storyboard in Resources */,
+				570EEBC81EE4FCBD004DA734 /* LaunchScreen.storyboard in Resources */,
+				579E9FE01EE6A20600F061C1 /* SelectAMerchantTVC.xib in Resources */,
+				57EE73BC1EF7D0CA001CA58C /* SectionHeaderView.xib in Resources */,
+				570EEBC51EE4FCBD004DA734 /* Assets.xcassets in Resources */,
+				5717DC8F1F0C99490045FF2B /* Coupon.storyboard in Resources */,
+				57250B6B1F00EC580075B343 /* Merchants.storyboard in Resources */,
+				579E9FDC1EE69A7300F061C1 /* Signup.storyboard in Resources */,
+				570EEBC31EE4FCBD004DA734 /* Home.storyboard in Resources */,
+				57250B711F00EEB80075B343 /* SearchTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		148004CEB2643CCCA6AB42B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifePlus/Pods-LifePlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		229C4B718FA2BF5FA6CB0ED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifePlus/Pods-LifePlus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D1B57C68E15FB399CD12D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570EEBB61EE4FCBC004DA734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57705E571EE50AB000A7F144 /* Router.swift in Sources */,
+				57E7949F1F03AA9500BA5F53 /* ProviderTVC.swift in Sources */,
+				57705E561EE50AB000A7F144 /* APIManager.swift in Sources */,
+				578DE2421EFBA9B60047E1AD /* GetCouponVC.swift in Sources */,
+				5792AAFC1F137EB20007E5AE /* Card.swift in Sources */,
+				57E7949C1F03AA0700BA5F53 /* MerchantDetailVC.swift in Sources */,
+				57D82BED1F0F781D0057CA90 /* ConfigurationVC.swift in Sources */,
+				574DFE5B1F0DF098003EDD83 /* ExchangePointTVC.swift in Sources */,
+				575355411EF7875300756CF0 /* BaseTableVC.swift in Sources */,
+				57250B6D1F00EE010075B343 /* MerchantsVC.swift in Sources */,
+				57E794A31F03ABF100BA5F53 /* CouponSponsoringTVC.swift in Sources */,
+				570DEF521F135FB000A69DD8 /* GiftInforTVC.swift in Sources */,
+				570EEBC01EE4FCBD004DA734 /* HomeVC.swift in Sources */,
+				570DEF501F135AFC00A69DD8 /* GiftInforVC.swift in Sources */,
+				579E9FC61EE651D200F061C1 /* Campaign.swift in Sources */,
+				5717DC911F0CA3B20045FF2B /* QRReaderVC.swift in Sources */,
+				577B43421F1607AB007AE2D7 /* LocationsVC.swift in Sources */,
+				5783DE571EE546B2003D9211 /* User.swift in Sources */,
+				579E9FDF1EE6A20600F061C1 /* SelectAMerchantTVC.swift in Sources */,
+				579E9FCC1EE654D700F061C1 /* MemberType.swift in Sources */,
+				579E9FC81EE6544F00F061C1 /* Branch.swift in Sources */,
+				5783DE591EE554DA003D9211 /* LoginVC.swift in Sources */,
+				57EE73BB1EF7D0CA001CA58C /* SectionHeaderView.swift in Sources */,
+				57705E631EE50BF300A7F144 /* Coupon.swift in Sources */,
+				57AF3A881EE79CD3001B7B83 /* SignUpVC.swift in Sources */,
+				5711EE391EEA3CE600FC4A5D /* BannerCVC.swift in Sources */,
+				57C1B9C01EEE7FD300516DC4 /* SearchVC.swift in Sources */,
+				579E9FD81EE6971B00F061C1 /* SelectAMerchantVC.swift in Sources */,
+				57722D861F14D07300FAE9DD /* GiftDetailVC.swift in Sources */,
+				570EEBBE1EE4FCBD004DA734 /* AppDelegate.swift in Sources */,
+				57DC83581EE561CD005A41C1 /* Ultils.swift in Sources */,
+				576D30411EE8FB3A00F99D36 /* HomeTVC.swift in Sources */,
+				57705E601EE50B4000A7F144 /* BaseVC.swift in Sources */,
+				579E9FCA1EE654A200F061C1 /* Merchant.swift in Sources */,
+				579E9FD11EE65C8900F061C1 /* APIError.swift in Sources */,
+				574DFE581F0DF06E003EDD83 /* ExchangePointVC.swift in Sources */,
+				57250B741F00F57C0075B343 /* MerchantTVC.swift in Sources */,
+				579E9FD61EE689DB00F061C1 /* ForgotPasswordVC.swift in Sources */,
+				57250B701F00EEB80075B343 /* SearchTVC.swift in Sources */,
+				575355401EF7875300756CF0 /* BaseCell.swift in Sources */,
+				57AF3A8A1EE7E517001B7B83 /* ConfirmActiveAccountVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		570EEBC11EE4FCBD004DA734 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570EEBC21EE4FCBD004DA734 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		570EEBC61EE4FCBD004DA734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570EEBC71EE4FCBD004DA734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570EEBCA1EE4FCBD004DA734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		570EEBCB1EE4FCBD004DA734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570EEBCD1EE4FCBD004DA734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986CBD790B5568366BB8CC30 /* Pods-LifePlus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N235UM7YFU;
+				INFOPLIST_FILE = LifePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mudaheo.LifePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		570EEBCE1EE4FCBD004DA734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F55279A125B34AAFDC55AB /* Pods-LifePlus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N235UM7YFU;
+				INFOPLIST_FILE = LifePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mudaheo.LifePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570EEBB51EE4FCBC004DA734 /* Build configuration list for PBXProject "LifePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570EEBCA1EE4FCBD004DA734 /* Debug */,
+				570EEBCB1EE4FCBD004DA734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570EEBCC1EE4FCBD004DA734 /* Build configuration list for PBXNativeTarget "LifePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570EEBCD1EE4FCBD004DA734 /* Debug */,
+				570EEBCE1EE4FCBD004DA734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 570EEBB21EE4FCBC004DA734 /* Project object */;
+}
